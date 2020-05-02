@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MenuController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label prefHeight="70.0" prefWidth="265.0" text="game_name" AnchorPane.leftAnchor="507.0" AnchorPane.rightAnchor="507.4" AnchorPane.topAnchor="150.0">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <VBox prefHeight="200.0" prefWidth="153.0" spacing="40.0" AnchorPane.leftAnchor="565.0" AnchorPane.rightAnchor="561.4" AnchorPane.topAnchor="350.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#play" prefHeight="50.0" prefWidth="150.0" text="Play">
+                     <font>
+                        <Font size="24.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" onAction="#help" prefHeight="50.0" prefWidth="150.0" text="Help">
+                     <font>
+                        <Font size="24.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" onAction="#exit" prefHeight="50.0" prefWidth="150.0" text="Exit">
+                     <font>
+                        <Font size="24.0" />
+                     </font></Button>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
